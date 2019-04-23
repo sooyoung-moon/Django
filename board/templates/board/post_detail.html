@@ -1,0 +1,14 @@
+{% extends 'board/base.html' %}
+
+{% block content %}
+    <div class="post">
+        {% if post.published_date %}
+            <div class="date">
+                <p>published_date: {{ post.published_date }}</p>
+                <p>created_date: {{ post.created_date }}</p>
+            </div>
+        {% endif %}
+        <h1>{{ post.title }}</h1>
+        <p>{{ post.text|linebreaksbr }}</p>
+    </div>
+{% endblock %}

@@ -1,0 +1,19 @@
+.page-header {
+    background-color: #e8c5eb;
+    color: rgb(0, 0, 0);
+    padding-left: 15px;
+    font-family: 'Lobster';
+}
+
+h1 a {
+    color: floralwhite;
+}
+
+h3 a {
+    color: black;
+}
+
+
+body {
+    padding-left: 15px;
+}
